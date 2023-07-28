@@ -1,10 +1,15 @@
+import Header from '../component/Header';
+
 const UpdateProductPage = () => {
     return (
-        <div>
-            <h1>
-                UpdateProduct Page
-            </h1>
-        </div>
+        <>
+           <Header/>
+            <div>
+                <h1>
+                     UpdateProduct Page
+                </h1>
+            </div>
+        </>
     )
 }
 
