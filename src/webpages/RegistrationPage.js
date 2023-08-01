@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Header from '../component/Header';
+import HeaderComponent from '../component/HeaderComponent';
 
 const RegistrationPage = () => {
 
@@ -24,7 +24,7 @@ const RegistrationPage = () => {
 
     return (
         <>
-            <Header/>
+            <HeaderComponent/>
             <div className="col-sm-6 offset-sm-3">
             <h1>User Sign Up</h1>
             <input 
